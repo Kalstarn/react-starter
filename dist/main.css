@@ -1,0 +1,77 @@
+body {
+  background-color: gray;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: darkgoldenrod;
+}
+.search-bar {
+  border-color: black;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  height: 100px;
+  padding: 0px;
+  background-color: darkgoldenrod;
+}
+
+.add-movie-button, .clear-filter-button, .search-button {
+  background-color: rgb(250, 78, 78);
+}
+.title-bar {
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.add-movie {
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: darkgoldenrod;
+}
+.movie-entry {
+  font-size: 20px;
+  text-align: center;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  height: 100px;
+  background-color: darkgoldenrod;
+}
+.watched-list, .to-watch {
+  float: left;
+  height: 40px;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: -9px;
+  background-color: cadetblue;
+}
+.watched-button {
+  float: right;
+  height: 18px;
+  font-size: 10px;
+  border-color: black;
+  border-radius: 4px;
+  background-color: rgb(250, 78, 78);
+  margin: 25px;
+}
+.entry-header {
+  font-size: 10px;
+  margin-top: 2px;
+}
+.movie-title {
+  width: 50%;
+  margin: 20px;
+  float: left;
+}
